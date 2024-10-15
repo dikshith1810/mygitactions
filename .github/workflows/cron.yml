@@ -7,7 +7,7 @@ on:
  
 jobs:
   cron:
-    runs-on: hil_desktop
+    runs-on: ubuntu-latest
     
     steps:
       - name: Run a one-line script
