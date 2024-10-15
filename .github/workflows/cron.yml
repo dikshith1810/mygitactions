@@ -1,0 +1,14 @@
+name:
+  Runner Active
+ 
+on:
+  schedule:
+    - cron: "* * * * *"
+ 
+jobs:
+  cron:
+    runs-on: hil_desktop
+    
+    steps:
+      - name: Run a one-line script
+        run: echo HIL Active!!
